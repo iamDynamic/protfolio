@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    padding: 40px;
+    background-color: #007b7b;
+}
+nav h1{
+    margin-left: 20px;
+    color: #fff;
+}
+nav div{
+    margin-left: 900px;
+}
+nav div a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+nav div button{
+    background-color: #007b7b;
+    color: #fff;
+    padding: 10px;
+    border: solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+article{
+    display: flex;
+    margin-left: 200px;
+}
+article aside h1{
+    font-size: 50px;
+    margin-top: 200px;
+    text-transform: capitalize;
+}
+article aside p{
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+article aside .ButtonContainer{
+    margin-top: 30px;
+}
+article aside .ButtonContainer button{
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #007b7b;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+}
+article aside .ButtonContainer button:hover{
+    background-color: transparent;
+    color: #007b7b;
+}
+article aside .IconContainer{
+    margin-top: 40px;
+}
+article section{
+    margin-top: 60px;
+    margin-left: 300px;
+}
+#menu,
+header section{
+    
+    display: none;
+}
+header section{
+    background-color: #007b7b;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+header section a{
+    text-decoration: none;
+    height: fit-content;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border: solid #fff;
+    padding: 10px;
+}
+header section a:hover{
+    background-color: #fff;
+    color: #007b7b;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+@media (max-width:1355px) {
+    nav div{
+        margin-left: -1px;
+        margin-left: 500px;
+    }
+}
+@media (max-width:1259px) {
+    article section {
+        margin-left: -1px;
+        margin-left: 50px;
+    }
+}
+@media (max-width:1169px) {
+    article section img{
+        width: 300px;
+        margin-top: 100px;
+    }
+    nav div{
+        margin-left: -1px;
+        margin-left: 400px;
+    }
+}
+@media (max-width:1069px) {
+    nav div{
+          display: none;
+    }
+    nav{
+        display: flex;
+    }
+    nav h1{
+        text-align: center;
+        margin-top: 14px;
+    }
+    nav #menu{
+        cursor: pointer;
+        display: flex;
+    }
+}
+@media (max-width:902px) {
+    article{
+        margin-left: -1px;
+        margin-left: 50px;
+    }
+}
+@media (max-width:714px) {
+    article{
+        margin-left: -1px;
+    }
+}
+@media (max-width:644px) {
+    article section img{
+         width: 200px;
+    }
+}
+@media (max-width:568px) {
+    article section img{
+        display: none;
+    }
+    article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
